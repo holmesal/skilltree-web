@@ -15,4 +15,9 @@ const createStoreWithMiddleware = applyMiddleware(
 
 // Create the store with an initial (empty) state
 // In a complex application, we might rehydrate this state from AsyncStorage or etc
-export default store = createStoreWithMiddleware(rootReducer, {});
+//export default store = createStoreWithMiddleware(rootReducer, {});
+
+import fakeData from 'json!../example.json';
+export default store = createStoreWithMiddleware(rootReducer, {skilltree: fakeData});
+
+console.info(store.getState())

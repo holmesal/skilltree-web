@@ -1,5 +1,6 @@
 import {combineReducers} from 'redux';
+import skilltree from './skilltree';
 
 export default combineReducers({
-    // reducers go here...
+    skilltree
 });

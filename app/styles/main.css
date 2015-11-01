@@ -1,0 +1,16 @@
+
+html, body, #app {
+    min-height: 100%;
+    min-width: 100%;
+    color: #FEFEFE;
+}
+
+/* css background gradient */
+html {
+    background-color: #738B97;
+    background-image: -webkit-radial-gradient(50% -10%, circle, #738B97, transparent), -webkit-radial-gradient(50% 110%, circle, #5E747F, transparent);
+    background-image: radial-gradient(circle at 50% -10%, #738B97, transparent), radial-gradient(circle at 50% 110%, #5E747F, transparent);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: normal;
+}

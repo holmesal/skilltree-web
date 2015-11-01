@@ -1,6 +1,9 @@
 // Entry point
-import Hello from './components/hello';
+import AppContainer from './containers/app';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import store from './store';
+// base styles
+import './styles/index.css';
 // Render
-ReactDOM.render(<Hello />, document.getElementById('app'));
+ReactDOM.render(<AppContainer />, document.getElementById('app'));
